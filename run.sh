@@ -16,8 +16,6 @@ esac
 
 
 source /etc/apache2/envvars
-
-echo "APACHE_RUN_DIR ${APACHE_RUN_DIR}"
 mkdir ${APACHE_RUN_DIR}
 
 apache2
