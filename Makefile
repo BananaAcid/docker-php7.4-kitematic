@@ -24,6 +24,9 @@ kill:
 
 
 # 1. make image, 2. login, 3. tag, 4. push
+publish:
+	make image && make login && make tag && make push
+
 login:
 	docker login
 
